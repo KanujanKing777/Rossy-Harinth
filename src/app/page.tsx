@@ -56,9 +56,7 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-      <footer className="text-center py-8 mt-12 border-t border-border/50">
-        <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Photo Memoirs. All rights reserved.</p>
-      </footer>
+      
     </div>
   );
 }

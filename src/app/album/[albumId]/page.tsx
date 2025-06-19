@@ -65,14 +65,7 @@ export default function AlbumPage({ params }: AlbumPageProps) {
         </svg>
       </div>
       <main className="container mx-auto px-4 py-8 md:py-12 relative z-10">
-        <div className="mb-8 flex justify-start">
-          <Button variant="outline" asChild className="group border-primary/50 text-primary hover:bg-primary/10 hover:text-primary">
-            <Link href="/" className="flex items-center gap-2 ">
-              <ArrowLeft size={18} className="transition-transform group-hover:-translate-x-1" />
-              <span className="font-headline text-base">Back to Albums</span>
-            </Link>
-          </Button>
-        </div>
+        
 
         <header className="mb-8 md:mb-12 text-center">
           <h1 className="text-4xl md:text-5xl font-headline text-foreground drop-shadow-sm">
@@ -82,9 +75,7 @@ export default function AlbumPage({ params }: AlbumPageProps) {
         
         <ImageGrid images={album.images} />
       </main>
-       <footer className="text-center py-8 mt-12 border-t border-border/50">
-        <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Photo Memoirs. All rights reserved.</p>
-      </footer>
+       
     </div>
   );
 }

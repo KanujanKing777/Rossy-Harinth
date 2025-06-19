@@ -22,7 +22,7 @@ export interface UserProfile {
 
 export const userProfileData: UserProfile = {
   name: "Rossy Harinth",
-  profileImageUrl: "/src/images/profile.jpg",
+  profileImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/profile.jpg",
   profileImageHint: "portrait person",
 };
 
@@ -30,7 +30,7 @@ export const albumsData: Album[] = [
   {
     id: "engineering",
     title: "Engineering",
-    coverImageUrl: "https://placehold.co/300x200.png",
+    coverImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/engineering.jpg",
     coverImageAlt: "Beach scene with palm trees and blue sky",
     coverImageHint: "beach landscape",
     images: [
@@ -43,9 +43,9 @@ export const albumsData: Album[] = [
     ],
   },
   {
-    id: "urban-exploration-journey",
-    title: "Urban Exploration",
-    coverImageUrl: "https://placehold.co/300x200.png",
+    id: "karate",
+    title: "Karate",
+    coverImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/karate.jpg",
     coverImageAlt: "Modern city skyline at dusk",
     coverImageHint: "city skyline",
     images: [
@@ -56,9 +56,9 @@ export const albumsData: Album[] = [
     ],
   },
   {
-    id: "peaceful-nature-retreat",
-    title: "Nature Retreat",
-    coverImageUrl: "https://placehold.co/300x200.png",
+    id: "hotel",
+    title: "Hotel",
+    coverImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/hotel.jpg",
     coverImageAlt: "Sunlight filtering through a dense forest path",
     coverImageHint: "forest path",
     images: [
@@ -70,9 +70,9 @@ export const albumsData: Album[] = [
     ],
   },
   {
-    id: "my-culinary-adventures",
-    title: "Culinary Adventures",
-    coverImageUrl: "https://placehold.co/300x200.png",
+    id: "weddingcar",
+    title: "Wedding Car",
+    coverImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/car.jpg",
     coverImageAlt: "Artistically arranged platter of gourmet food",
     coverImageHint: "food platter",
     images: [
@@ -82,9 +82,9 @@ export const albumsData: Album[] = [
     ],
   },
   {
-    id: "cherished-festive-moments",
-    title: "Festive Moments",
-    coverImageUrl: "https://placehold.co/300x200.png",
+    id: "volunteering",
+    title: "Volunteering",
+    coverImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/volunteering.jpg",
     coverImageAlt: "Colorful fireworks exploding in the night sky",
     coverImageHint: "fireworks celebration",
     images: [
