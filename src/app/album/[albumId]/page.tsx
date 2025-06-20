@@ -121,7 +121,94 @@ export default function AlbumPage({ params }: AlbumPageProps) {
   </div>
 </div>
 
-         : ""}
+         :album.id == "weddingcar" ? 
+         <div className="min-h-screen flex items-center justify-center p-4 font-[Poppins]">
+  <div className="max-w-xl w-full rounded-2xl bg-white/15 p-8 border border-white/30 shadow-2xl backdrop-blur-md transform transition-transform duration-300 hover:scale-[1.02] hover:shadow-3xl">
+
+    <h2 className="mb-6 text-center text-4xl font-bold text-white drop-shadow-lg">
+      Wedding Car Rental in <span className="text-white/90 font-extrabold">Jaffna</span>
+    </h2>
+
+    <p className="mb-6 text-white/90 text-center text-lg font-light leading-relaxed">
+      Make your special day unforgettable with our elegant wedding car service! 💐
+    </p>
+
+    <h3 className="mb-2 text-2xl font-semibold text-white">🚗 Cars Available</h3>
+    <ul className="mb-6 list-disc list-inside space-y-2 text-white/90 font-medium">
+      <li>Toyota C-HR – 25,000&nbsp;LKR</li>
+      <li>Toyota Yaris – 20,000&nbsp;LKR</li>
+    </ul>
+
+    <h3 className="mb-2 text-2xl font-semibold text-white">✨ What's Included</h3>
+    <ul className="mb-6 list-disc list-inside space-y-2 text-white/90 font-medium">
+      <li>Professional Chauffeur</li>
+      <li>Beautiful Wedding Car Decorations</li>
+    </ul>
+
+    <h3 className="mb-4 text-2xl font-semibold text-white">📞 Book Now</h3>
+    <p className="mb-6 text-white/90 text-lg font-medium leading-relaxed">
+      ☎ +94&nbsp;775&nbsp;026&nbsp;827
+    </p>
+
+    <p className="text-center font-semibold text-white text-lg drop-shadow">
+      📍 Available exclusively in <strong>Jaffna</strong> 
+    </p>
+
+    
+
+  </div>
+</div>
+
+         :album.id == "volunteering" ?
+         <div className="min-h-screen flex items-center justify-center p-4 font-[Poppins]">
+  <div className="max-w-md w-full rounded-2xl bg-white/15 p-6 border border-white/30 shadow-2xl backdrop-blur-md transform transition-transform duration-300 hover:scale-[1.02] hover:shadow-3xl">
+
+    
+
+    <h3 className="mb-2 text-2xl font-semibold text-white text-center">💖 Donate Now</h3>
+    <p className="mb-4 text-white/90 text-lg font-medium text-center">
+      ☎ +94&nbsp;775&nbsp;026&nbsp;827
+    </p>
+
+    <div className="text-center mt-4">
+      <a href="https://www.facebook.com/share/1BCw2TRPs7/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"
+         className="inline-block px-4 py-2 text-white font-medium border border-white/30 rounded-xl hover:bg-white/10 transition">
+         Facebook
+      </a>
+    </div>
+
+    
+
+  </div>
+</div>
+:album.id == "engineering" ? 
+<div className="min-h-screen flex items-center justify-center p-4 font-[Poppins] bg-cover bg-center" style={{ backgroundImage: "url('/path-to-your-building-image.jpg')" }}>
+  <div className="max-w-xl w-full rounded-2xl bg-white/15 p-8 border border-white/30 shadow-2xl backdrop-blur-md transform transition-transform duration-300 hover:scale-[1.02] hover:shadow-3xl">
+
+    <h2 className="mb-6 text-center text-4xl font-bold text-white drop-shadow-lg">
+      <span className="text-white/90 font-extrabold">Engineering</span>
+    </h2>
+
+   
+
+    <h3 className="mb-2 text-2xl font-semibold text-white">🔧 Services Offered</h3>
+    <ul className="mb-6 list-disc list-inside space-y-2 text-white/90 font-medium">
+      <li>Geo Technical Engineering</li>
+      <li>Construction</li>
+      <li>Designing</li>
+      <li>Surveyor Services</li>
+      <li>Project Management</li>
+      <li>Real Estate</li>
+      <li>Engineering Solutions</li>
+    </ul>
+
+    <p className="text-center text-white/70 text-sm font-light">
+      Build with confidence. Built by experts.
+    </p>
+
+  </div>
+</div>
+: ""}
       </main>
        
     </div>
