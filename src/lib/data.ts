@@ -11,6 +11,7 @@ export interface Album {
   coverImageUrl: string;
   coverImageAlt: string;
   coverImageHint: string;
+  data: string;
   images: AlbumImage[];
 }
 
@@ -30,6 +31,7 @@ export const albumsData: Album[] = [
   {
     id: "engineering",
     title: "Engineering",
+    data:"",
     coverImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/engineering.jpg",
     coverImageAlt: "Beach scene with palm trees and blue sky",
     coverImageHint: "beach landscape",
@@ -45,6 +47,7 @@ export const albumsData: Album[] = [
   {
     id: "karate",
     title: "Karate",
+    data:"",
     coverImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/karate.jpg",
     coverImageAlt: "Modern city skyline at dusk",
     coverImageHint: "city skyline",
@@ -61,17 +64,23 @@ export const albumsData: Album[] = [
     coverImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/hotel.jpg",
     coverImageAlt: "Sunlight filtering through a dense forest path",
     coverImageHint: "forest path",
+    data:"Ratnam Hotel Jaffna",
     images: [
-      { id: "nr1", url: "https://placehold.co/600x400.png", alt: "Majestic waterfall cascading down rocks", hint: "waterfall nature" },
-      { id: "nr2", url: "https://placehold.co/600x400.png", alt: "Deer grazing in a green meadow", hint: "wildlife deer" },
-      { id: "nr3", url: "https://placehold.co/600x400.png", alt: "Cozy tent pitched at a forest campsite", hint: "camping tent" },
-      { id: "nr4", url: "https://placehold.co/600x400.png", alt: "Clear night sky full of stars", hint: "night sky" },
-      { id: "nr5", url: "https://placehold.co/600x400.png", alt: "Misty morning view over a calm lake", hint: "lake morning" },
+      { id: "h1", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/hotel1.jpg", alt: "Majestic waterfall cascading down rocks", hint: "waterfall nature" },
+      { id: "h2", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/hotel2.jpg", alt: "Deer grazing in a green meadow", hint: "wildlife deer" },
+      { id: "h3", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/hotel3.jpg", alt: "Cozy tent pitched at a forest campsite", hint: "camping tent" },
+      { id: "h4", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/hotel4.jpg", alt: "Clear night sky full of stars", hint: "night sky" },
+      { id: "h5", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/hotel5.jpg", alt: "Misty morning view over a calm lake", hint: "lake morning" },
+      { id: "h6", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/hotel6.jpg", alt: "Misty morning view over a calm lake", hint: "lake morning" },
+      { id: "h7", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/hotel7.jpg", alt: "Misty morning view over a calm lake", hint: "lake morning" },
+      { id: "h8", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/hotel8.jpg", alt: "Misty morning view over a calm lake", hint: "lake morning" },
+
     ],
   },
   {
     id: "weddingcar",
     title: "Wedding Car",
+    data:"Wedding Car Rental in Jaffna",
     coverImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/car.jpg",
     coverImageAlt: "Artistically arranged platter of gourmet food",
     coverImageHint: "food platter",
@@ -84,6 +93,7 @@ export const albumsData: Album[] = [
   {
     id: "volunteering",
     title: "Volunteering",
+    data:"",
     coverImageUrl: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/volunteering.jpg",
     coverImageAlt: "Colorful fireworks exploding in the night sky",
     coverImageHint: "fireworks celebration",

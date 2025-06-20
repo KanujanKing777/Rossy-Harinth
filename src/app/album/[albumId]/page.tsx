@@ -69,11 +69,59 @@ export default function AlbumPage({ params }: AlbumPageProps) {
 
         <header className="mb-8 md:mb-12 text-center">
           <h1 className="text-4xl md:text-5xl font-headline text-foreground drop-shadow-sm">
-            {album.title}
+            {album.data}
           </h1>
         </header>
-        
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</link>
         <ImageGrid images={album.images} />
+        <br></br>
+        {album.id == "hotel" ? 
+
+
+<div className="min-h-screen flex items-center justify-center p-4 font-[Poppins]">
+  <div className="max-w-xl w-full rounded-2xl bg-white/15 p-8 border border-white/30 shadow-2xl backdrop-blur-md transform transition-transform duration-300 hover:scale-[1.02] hover:shadow-3xl">
+
+    <h2 className="mb-6 text-center text-4xl font-bold text-white drop-shadow-lg">
+      Experience Comfort &amp; Luxury at <span className="text-white/90 font-extrabold">Ratnam Hotel Jaffna</span>! 
+    </h2>
+
+    <p className="mb-6 text-white/90 text-center text-lg font-light leading-relaxed">
+      Looking for a perfect stay in Jaffna? Whether it’s a cozy getaway, a family vacation, or a group retreat, we’ve got you covered with affordable and comfortable accommodations!
+    </p>
+
+    <h3 className="mb-2 text-2xl font-semibold text-white">🏨 Room Rates</h3>
+    <ul className="mb-6 list-disc list-inside space-y-2 text-white/90 font-medium">
+      <li>AC Double Room – 5,500&nbsp;LKR</li>
+      <li>AC Family Room (4 people) – 6,500&nbsp;LKR</li>
+      <li>AC Villa (10 people) – 10,000&nbsp;LKR</li>
+      <li>AC Budget Double Room – 5,000&nbsp;LKR</li>
+      <li>AC Budget Family Room – 6,000&nbsp;LKR</li>
+      <li>Delicious Breakfast – 500&nbsp;LKR per person</li>
+    </ul>
+
+    <h3 className="mb-2 text-2xl font-semibold text-white">✨ Facilities Available</h3>
+    <ul className="mb-6 list-disc list-inside space-y-2 text-white/90 font-medium">
+      <li>Vehicle Hire 🚗</li>
+      <li>Laundry Service 🧺</li>
+      <li>Kids’ Playground 🛝</li>
+      <li>Yoga Space 🧘</li>
+    </ul>
+
+    <h3 className="mb-4 text-2xl font-semibold text-white">📞 Book Your Stay Now!</h3>
+    <p className="mb-6 text-white/90 text-lg font-medium space-y-1 leading-relaxed">
+      ☎ +94&nbsp;775&nbsp;026&nbsp;827<br></br>
+      ☎ +94&nbsp;77&nbsp;869&nbsp;2777
+    </p>
+
+    <p className="text-center font-semibold text-white text-lg drop-shadow">
+      📍 <strong>Ratnam Hotel – Your Home in Jaffna!</strong>
+    </p>
+
+  </div>
+</div>
+
+         : ""}
       </main>
        
     </div>
