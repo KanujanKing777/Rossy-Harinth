@@ -37,7 +37,7 @@ export const albumsData: Album[] = [
     coverImageHint: "beach landscape",
     images: [
       { id: "sv1", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/engineering.jpg", alt: "Golden sunset over a calm ocean", hint: "sunset ocean" },
-      { id: "sv2", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/engineering1.png", alt: "Family smiling on a sandy beach", hint: "family beach" },
+      { id: "sv2", url: "https://raw.githubusercontent.com/KanujanKing777/Rossy-Harinth/refs/heads/main/images/engineering1.jpg", alt: "Family smiling on a sandy beach", hint: "family beach" },
       { id: "sv3", url: "https://placehold.co/600x400.png", alt: "Colorful local dish on a plate", hint: "food plate" },
     ],
   },
